@@ -1,0 +1,33 @@
+{
+    "name": "qc-theme",
+    "displayName": "QuantConnect Theme",
+    "description": "A theme based on QuantConnect design",
+    "version": "0.0.1",
+    "publisher":"SantoshPassoubady",
+    "repository": {
+        "type":"git",
+        "url":"https://github.com/ssantoshp/QuantConnectVSCode"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "quantconnect",
+        "finance",
+        "quant"
+    ],
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "QuantConnect Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/QuantConnect Theme-color-theme.json"
+            }
+        ]
+    }
+}
